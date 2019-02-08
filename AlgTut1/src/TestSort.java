@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class TestSort {
 
     public static void main(String[] args) throws IOException {
-        int numberOfSimulations = 100;
+        int numberOfSimulations = 1;
         int N = 10000;
         int step = 1;
         double[] insertionTimeComplexity = new double[numberOfSimulations];
@@ -27,8 +27,9 @@ public class TestSort {
 
 
 
+
             for (int j = 0; j < N; j+=step) {
-                double[] data = new double[N];
+                double[] data = new double[j];
                 for (int i = 0; i < j; i++)
                     data[i] = Math.random();
                 double[] data1 = (double[]) data.clone();
