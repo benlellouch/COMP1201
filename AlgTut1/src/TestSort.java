@@ -11,8 +11,8 @@ public class TestSort {
 
     public static void main(String[] args) throws IOException {
         int numberOfSimulations = 1;
-        int N = 10000;
-        int step = 1;
+        int N = 1000000;
+        int step = 10000;
         double[] insertionTimeComplexity = new double[numberOfSimulations];
         double[] shellTimeComplexity = new double[numberOfSimulations];
         double[] quickTimeComplexity = new double[numberOfSimulations];
@@ -60,18 +60,14 @@ public class TestSort {
                     //quickTimeComplexityAverage[j] += time;
                 }
                 System.out.println(j);
+
+            }
+
+            for(int j=0; j<N; j+=step){
                 insertionMedian[j]= median(insertionTimeComplexityAverage[j]);
                 shellMedian[j]=median(shellTimeComplexityAverage[j]);
                 quickMedian[j]=median(quickTimeComplexityAverage[j]);
-                //System.out.println("Insertion Sort Average: " + insertionTimeComplexityAverage[i] + " " + "Shell Sort Average: " + shellTimeComplexityAverage[i] + " " + "Quick Sort Average: " + quickTimeComplexityAverage[i]);
-                System.out.println(insertionMedian[j] + " " + shellMedian[j] + " " + quickMedian[j]);
-//                insertionTimeComplexityAverage[j]= insertionTimeComplexity;
-//                shellTimeComplexityAverage[j]= shellTimeComplexity;
-//                quickTimeComplexityAverage[j]= quickTimeComplexity;
-                // System.out.println("Quick Sort\nTime= " + time);
-               // insertionTimeComplexityAverage[j] =+ insertionTimeComplexity[j];
-                //shellTimeComplexityAverage[j]=+ shellTimeComplexity[j];
-                //quickTimeComplexityAverage[j]=+ quickTimeComplexity[j];
+                System.out.println( insertionMedian[j] + " " + shellMedian[j] + " " + quickMedian[j]);
             }
 
 
