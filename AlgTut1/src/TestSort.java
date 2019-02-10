@@ -10,16 +10,14 @@ import java.util.Arrays;
 public class TestSort {
 
     public static void main(String[] args) throws IOException {
-        int numberOfSimulations = 1;
-        int N = 1000000;
+        int numberOfSimulations = 20;
+        int N = 100000;
         int step = 10000;
-        double[] insertionTimeComplexity = new double[numberOfSimulations];
-        double[] shellTimeComplexity = new double[numberOfSimulations];
-        double[] quickTimeComplexity = new double[numberOfSimulations];
+        int startingValue = 1;
 
-        double[][] insertionTimeComplexityAverage = new double[N][numberOfSimulations];
-        double[][] shellTimeComplexityAverage = new double[N][numberOfSimulations];
-        double[][] quickTimeComplexityAverage = new double[N][numberOfSimulations];
+        double[][] insertionTimeComplexityAverage = new double[numberOfSimulations][N];
+        double[][] shellTimeComplexityAverage = new double[numberOfSimulations][N];
+        double[][] quickTimeComplexityAverage = new double[numberOfSimulations][N];
 
         double[] insertionMedian = new double[N];
         double[] shellMedian = new double[N];
@@ -28,16 +26,15 @@ public class TestSort {
 
 
 
-            for (int j = 0; j < N; j+=step) {
-                double[] data = new double[j];
-                for (int i = 0; i < j; i++)
-                    data[i] = Math.random();
-                double[] data1 = (double[]) data.clone();
-                double[] data2 = (double[]) data.clone();
-                double[] data3 = (double[]) data.clone();
+            for (int j = 0; j < numberOfSimulations; j++) {
 
-                for(int k = 0; k < numberOfSimulations; k++) {
-
+                for(int k = startingValue; k < N; k+=step) {
+                    double[] data = new double[k];
+                    for (int i = 0; i < k; i++)
+                        data[i] = Math.random();
+                    double[] data1 = (double[]) data.clone();
+                    double[] data2 = (double[]) data.clone();
+                    double[] data3 = (double[]) data.clone();
                     long time_prev = System.nanoTime();
                     Arrays.sort(data3);
                     double time = (System.nanoTime() - time_prev) / 1000000000.0;
@@ -58,12 +55,20 @@ public class TestSort {
 
 
                     //quickTimeComplexityAverage[j] += time;
+                    System.out.println("Simulation: " + j + " Input: " + k);
+                    System.out.println(insertionTimeComplexityAverage[j][k] + " "+ shellTimeComplexityAverage[j][k] + " "+ quickTimeComplexityAverage[j][k]);
                 }
-                System.out.println(j);
+//                System.out.println(j);
 
             }
 
-            for(int j=0; j<N; j+=step){
+            insertionTimeComplexityAverage = transposeMatrix(insertionTimeComplexityAverage);
+            quickTimeComplexityAverage=transposeMatrix(quickTimeComplexityAverage);
+            shellTimeComplexityAverage=transposeMatrix(shellTimeComplexityAverage);
+
+
+
+            for(int j=startingValue; j<N; j+=step){
                 insertionMedian[j]= median(insertionTimeComplexityAverage[j]);
                 shellMedian[j]=median(shellTimeComplexityAverage[j]);
                 quickMedian[j]=median(quickTimeComplexityAverage[j]);
@@ -91,7 +96,7 @@ public class TestSort {
         for (int i = 0; i < 4; i ++ ){
 
             if(i == 0){
-                for (int j = 0; j < N; j+=step){
+                for (int j = startingValue; j < N; j+=step){
 
                         bookData[(j/step)+1][i] = j;
 
@@ -99,7 +104,7 @@ public class TestSort {
 
             } else if (i == 1){
 
-                for (int j = 0; j < N; j+=step){
+                for (int j = startingValue; j < N; j+=step){
 
                         bookData[(j/step)+1][i] = insertionMedian[j];
 
@@ -107,7 +112,7 @@ public class TestSort {
                 }
 
             } else if (i == 2){
-                for (int j = 0; j < N; j+=step){
+                for (int j = startingValue; j < N; j+=step){
                         bookData[(j/step)+1][i] = shellMedian[j];
 
 
@@ -115,7 +120,7 @@ public class TestSort {
                 }
 
             } else if (i ==3){
-                for (int j = 0; j < N; j+=step){
+                for (int j = startingValue; j < N; j+=step){
                         bookData[(j/step)+1][i] = quickMedian[j];
 
 
@@ -242,5 +247,13 @@ public class TestSort {
     public static double median(double[] a) {
         Arrays.sort(a);
         return a[a.length/2];
+    }
+
+    public static double[][] transposeMatrix(double [][] m){
+        double[][] temp = new double[m[0].length][m.length];
+        for (int i = 0; i < m.length; i++)
+            for (int j = 0; j < m[0].length; j++)
+                temp[j][i] = m[i][j];
+        return temp;
     }
 }
