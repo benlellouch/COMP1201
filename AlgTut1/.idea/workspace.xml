@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69ae8866-0435-4b16-80a3-914926ed9ee7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgTut1/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgTut1/TestSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSort.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testSort.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +82,7 @@
     <session id="-2098743987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="3" />
@@ -94,13 +91,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1116" />
-          <entry key="txt" value="424" />
+          <entry key="txt" value="608" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1116" />
-          <entry key="PLAIN_TEXT" value="424" />
+          <entry key="PLAIN_TEXT" value="608" />
         </counts>
       </usages-collector>
     </session>
@@ -143,8 +140,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
-    <option name="width" value="3860" />
-    <option name="height" value="2111" />
+    <option name="y" value="1" />
+    <option name="width" value="1938" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,7 +174,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549809039232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549824479899" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/School Stuff/COMP1201/TUT1test" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -234,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549756333075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="It finally works. Just had to inverse the loops and transpose the matrices and now the values are correct and the median are calculated correctly too !!">
+      <created>1549811476089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549811476089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -248,10 +253,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49197862" visible="true" weight="0.104572564" />
-      <window_info id="Structure" order="1" sideWeight="0.5080214" side_tool="true" visible="true" weight="0.104572564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49118683" visible="true" weight="0.104572564" />
+      <window_info id="Structure" order="1" sideWeight="0.50881314" side_tool="true" visible="true" weight="0.104572564" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -259,14 +263,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2626183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2626183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39984226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32886437" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32886437" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -294,7 +298,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I change the data[] size from the max number of inputs to the current amount of inputs and it seems to have corrected the data somewhat... i just need to figure what the problem is with the median..." />
     <MESSAGE value="got the correct data now but still haven't been able to get to correct median reading so i'm going to try and inverse the for loops which means i'll to transpose the matrices to get arrays of tries." />
-    <option name="LAST_COMMIT_MESSAGE" value="got the correct data now but still haven't been able to get to correct median reading so i'm going to try and inverse the for loops which means i'll to transpose the matrices to get arrays of tries." />
+    <MESSAGE value="It finally works. Just had to inverse the loops and transpose the matrices and now the values are correct and the median are calculated correctly too !!" />
+    <option name="LAST_COMMIT_MESSAGE" value="It finally works. Just had to inverse the loops and transpose the matrices and now the values are correct and the median are calculated correctly too !!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
