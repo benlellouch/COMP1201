@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ae8866-0435-4b16-80a3-914926ed9ee7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/libraries/commons_collections4_4_2_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/libraries/ooxml_lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/libraries/poi_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgTut1exercise2/src/TimeComplexity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +88,9 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -107,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="5014">
+              <caret line="257" column="5" lean-forward="true" selection-start-line="246" selection-start-column="3" selection-end-line="257" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,11 +143,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="y" value="1" />
-    <option name="width" value="1938" />
-    <option name="height" value="1028" />
+    <option name="width" value="1940" />
+    <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,9 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +170,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +179,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549824479899" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/School Stuff/COMP1201/TUT1test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -252,10 +256,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="0" width="1293" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49118683" visible="true" weight="0.104572564" />
-      <window_info id="Structure" order="1" sideWeight="0.50881314" side_tool="true" visible="true" weight="0.104572564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48991695" visible="true" weight="0.21492295" />
+      <window_info id="Structure" order="1" sideWeight="0.510083" side_tool="true" visible="true" weight="0.21492295" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -270,7 +275,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32886437" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.33095238" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="5014">
+          <caret line="257" column="5" lean-forward="true" selection-start-line="246" selection-start-column="3" selection-end-line="257" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="commons-collections4-4.2-javadoc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.2/commons-collections4-4.2-tests.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.2/commons-collections4-4.2.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/commons-collections4-4.2" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.2/commons-collections4-4.2-javadoc.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/commons-collections4-4.2/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.2/commons-collections4-4.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-collections4-4.2/commons-collections4-4.2-test-sources.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/commons-collections4-4.2" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/commons-collections4-4.2" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/commons-collections4-4.2" recursive="false" type="SOURCES" />
+  </library>
+</component>

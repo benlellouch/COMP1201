@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="ooxml-lib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/ooxml-lib" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/lib" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/docs/apidocs/dev" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/ooxml-lib" recursive="false" />
+  </library>
+</component>
