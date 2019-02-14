@@ -10,10 +10,10 @@ import java.util.Arrays;
 public class TestSort {
 
     public static void main(String[] args) throws IOException {
-        int numberOfSimulations = 20;
+        int numberOfSimulations = 10;
         int N = 100000;
         int step = 10000;
-        int startingValue = 1;
+        int startingValue = 0;
 
         double[][] insertionTimeComplexityAverage = new double[numberOfSimulations][N];
         double[][] shellTimeComplexityAverage = new double[numberOfSimulations][N];
