@@ -4,21 +4,21 @@ public class Main {
     public static void main(String[] args) {
         CircularArrayQueue circularArrayQueue = new CircularArrayQueue(10);
         Random rn = new Random();
-        for (int i = 0; i< 10; i++){
+        for (int i = 0; i< 11; i++){
             circularArrayQueue.enqueue(18);
         }
 
-        int dequeue = circularArrayQueue.dequeue();
-        circularArrayQueue.dequeue();
+//        int dequeue = circularArrayQueue.dequeue();
+//        circularArrayQueue.dequeue();
 
-//        for (int i =0; i<12;i++){
-//           int test = circularArrayQueue.circularArrayQueue[i];
-//            System.out.println(test);
-//        }
+        for (int i =1; i<11;i++){
+           int test = circularArrayQueue.circularArrayQueue[i];
+            System.out.println(test);
+        }
 
         System.out.println("Size of Array "+circularArrayQueue.circularArrayQueue.length);
         System.out.println("Capacity Left "+ circularArrayQueue.getCapacityLeft());
         System.out.println("Number of Items "+circularArrayQueue.noItems());
-        System.out.println("Dequeued " + dequeue);
+//        System.out.println("Dequeued " + dequeue);
     }
 }
