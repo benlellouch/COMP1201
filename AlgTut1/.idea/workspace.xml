@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ae8866-0435-4b16-80a3-914926ed9ee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/AlgTut1Exercise3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/src/MySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/src/MySortAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/src/TimeComplexity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgTut1/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgTut1/TestSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testSort.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testSort.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSort_n=1000_nos=100.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSort_n=1000_nos=1000.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgTut1Exercise3/out/production/AlgTut1Exercise3/TimeComplexity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/out/production/AlgTut1Exercise3/TimeComplexity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgTut1Exercise3/src/TimeComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut1Exercise3/src/TimeComplexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut1exercise2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgTut1exercise2/testColouring.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut1exercise2/testColouring.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../time.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,22 +93,26 @@
     <session id="-2098743987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1128" />
+          <entry key="java" value="1147" />
           <entry key="txt" value="608" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1128" />
+          <entry key="JAVA" value="1147" />
           <entry key="PLAIN_TEXT" value="608" />
         </counts>
       </usages-collector>
@@ -118,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state>
+              <caret selection-end-line="258" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,10 +154,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1193" />
-    <option name="y" value="258" />
-    <option name="width" value="1936" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +175,18 @@
             </path>
             <path>
               <item name="AlgTut1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgTut1" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgTut1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -185,7 +195,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550065749698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550097168780" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -263,11 +273,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48877007" visible="true" weight="0.10055644" />
-      <window_info id="Structure" order="1" sideWeight="0.51122993" side_tool="true" visible="true" weight="0.10055644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48064515" visible="true" weight="0.14375" />
+      <window_info id="Structure" order="1" sideWeight="0.5193548" side_tool="true" visible="true" weight="0.14375" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -275,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2626183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5121145" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39984226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,30 +322,6 @@
     <MESSAGE value="It finally works. Just had to inverse the loops and transpose the matrices and now the values are correct and the median are calculated correctly too !!" />
     <option name="LAST_COMMIT_MESSAGE" value="It finally works. Just had to inverse the loops and transpose the matrices and now the values are correct and the median are calculated correctly too !!" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestSort.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestSort.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestSort.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ExcelWriter.java" />
     <entry file="file://$PROJECT_DIR$/src/TestSortWithoutExcel.java" />
@@ -345,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="258" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

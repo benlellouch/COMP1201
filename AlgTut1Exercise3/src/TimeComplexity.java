@@ -5,10 +5,11 @@ import java.util.List;
 
 public class TimeComplexity {
     public static void main(String[] args) {
-        int N = Integer.parseInt(args[0]);
+        int N = 10000000;
+        int step =  100000;
         double data[] = new double[N];
-        List<Double> dataList = new ArrayList<Double>(N);
-        for(int i = 0; i<N; i++){
+        List<Double> dataList = new ArrayList<Double>();
+        for(int i = 1; i<N; i++){
             data[i]= Math.random();
             dataList.add(Math.random());
         }
