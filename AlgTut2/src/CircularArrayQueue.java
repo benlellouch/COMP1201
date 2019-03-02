@@ -1,32 +1,36 @@
 import java.util.NoSuchElementException;
 
+
+
 public class CircularArrayQueue implements MyQueue {
     Integer[]circularArrayQueue;
-    private int rear = -1;
-    private int front =-1;
-    public CircularArrayQueue (int i){
-        this.circularArrayQueue = new Integer[i];
+    private int tail = -1;
+    private int head =-1;
+    public CircularArrayQueue (){
+        this.circularArrayQueue = new Integer[10];
     }
     @Override
     public void enqueue(int in) {
             //condition for the array being full
-            if ((rear+1)%circularArrayQueue.length == front) {
+            if ((tail +1)%circularArrayQueue.length == head) {
                 Integer[] clone = circularArrayQueue.clone();
                 circularArrayQueue = new Integer[clone.length * 2];
                 for (int i = 0; i < clone.length; i++) {
                     circularArrayQueue[i] = clone[i];
                 }
-                rear=(rear +1)%circularArrayQueue.length;
-                circularArrayQueue[rear] = in;
+                tail =(tail +1)%circularArrayQueue.length;
+                circularArrayQueue[tail] = in;
 
 
-            } else if (rear == -1){
-                front = 0; rear = 0;
-                circularArrayQueue[rear] = in;
+
+            } else if (head == -1){
+                head = 0; tail = 0;
+                circularArrayQueue[tail] = in;
 
             } else {
-                rear=(rear +1)%circularArrayQueue.length;
-                circularArrayQueue[rear]= in;
+                tail =(tail +1)%circularArrayQueue.length;
+                circularArrayQueue[tail]= in;
+
             }
 
     }
@@ -34,17 +38,25 @@ public class CircularArrayQueue implements MyQueue {
     @Override
     public int dequeue() throws NoSuchElementException {
 
-        if(rear == -1){
-            throw new  NoSuchElementException("The Queue is Empty");
-        } else if (front == rear){
-            int queued = circularArrayQueue[front];
-            circularArrayQueue[front] = null;
-            front =-1;
-            rear =-1;
-            return queued;
+//        if(tail == -1){
+//            throw new  NoSuchElementException("The Queue is Empty");
+//        } else if (head == tail){
+//            int queued = circularArrayQueue[head];
+//            circularArrayQueue[head] = null;
+//            head =-1;
+//            tail =-1;
+//            return queued;
+//        } else {
+//            int queued = circularArrayQueue[head];
+//            head =(head +1)%circularArrayQueue.length;
+//            return queued;
+//        }
+
+        if (tail == head){
+            throw new NoSuchElementException("The Queue is Empty");
         } else {
-            int queued = circularArrayQueue[front];
-            front=(front+1)%circularArrayQueue.length;
+            int queued = circularArrayQueue[head];
+            head=(head+1)%circularArrayQueue.length;
             return queued;
         }
 
@@ -52,17 +64,17 @@ public class CircularArrayQueue implements MyQueue {
 
     @Override
     public boolean isEmpty() {
-        if (front == -1){
+        if (head == -1){
             return true;
         }else{return false;}
     }
 
     @Override
     public int noItems() {
-        return rear - front;
+        return  head - (tail +1)  ;
     }
 
     public int getCapacityLeft(){
-        return circularArrayQueue.length - (rear - front);
+        return circularArrayQueue.length - ((tail +1) - head);
     }
 }
