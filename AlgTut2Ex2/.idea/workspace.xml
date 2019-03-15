@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a59fcc80-07c5-4802-af4b-064a63c5db37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlgTut2/src/CircularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgTut2/src/CircularArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircularArrayRing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularArrayRing.java" afterDir="false" />
-    </list>
+    <list default="true" id="a59fcc80-07c5-4802-af4b-064a63c5db37" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3171" />
+          <entry key="java" value="3258" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3171" />
+          <entry key="JAVA" value="3258" />
+          <entry key="PLAIN_TEXT" value="52" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CircularArrayRing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="552">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,9 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="1461" />
-    <option name="height" value="1571" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="975" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,21 +223,17 @@
       <option name="presentableId" value="Default" />
       <updated>1551552672046</updated>
     </task>
+    <task id="LOCAL-00001" summary="Just added some comments and removed mutator().">
+      <created>1552646315419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552646315419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircularArrayRingTest - 2019.03.03 at 14h 35m 48s.xml">
-      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircularArrayRingTest - 2019.03.03 at 14h 45m 18s.xml">
-      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircularArrayRingTest - 2019.03.03 at 14h 45m 20s.xml">
-      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircularArrayRingTest - 2019.03.03 at 14h 46m 01s.xml">
-      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CircularArrayRingTest - 2019.03.03 at 15h 13m 30s.xml">
       <configuration name="CircularArrayRingTest" configurationId="JUnit" />
     </history-entry>
@@ -255,6 +250,18 @@
       <configuration name="CircularArrayRingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CircularArrayRingTest - 2019.03.14 at 18h 54m 32s.xml">
+      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircularArrayRingTest - 2019.03.15 at 10h 34m 42s.xml">
+      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircularArrayRingTest - 2019.03.15 at 10h 36m 24s.xml">
+      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircularArrayRingTest - 2019.03.15 at 10h 37m 54s.xml">
+      <configuration name="CircularArrayRingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircularArrayRingTest - 2019.03.15 at 10h 38m 04s.xml">
       <configuration name="CircularArrayRingTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -293,36 +300,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Just added some comments and removed mutator()." />
+    <option name="LAST_COMMIT_MESSAGE" value="Just added some comments and removed mutator()." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularArrayRing.java</url>
-          <line>45</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularArrayRing.java</url>
-          <line>46</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularArrayRing.java</url>
-          <line>47</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularArrayRing.java</url>
-          <line>51</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CircularArrayRing.java</url>
-          <line>34</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -375,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CircularArrayRing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
