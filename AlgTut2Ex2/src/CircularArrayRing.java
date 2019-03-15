@@ -60,7 +60,7 @@ public class CircularArrayRing<E> extends AbstractCollection<E> implements Ring<
             when count reaches the array length it means that
             we have iterated through the whole array.
             */
-                if(count >= array.length){
+                if(count >= numberOfItems ){
                     return false;
                 }else{
                     return true;
@@ -73,7 +73,7 @@ public class CircularArrayRing<E> extends AbstractCollection<E> implements Ring<
                     but we increment count so that every time we call next() it returns
                     the next previous element.
                     * */
-                if (count < array.length) {
+                if (count < numberOfItems) {
 
                     @SuppressWarnings("unchecked") final E e = (E) array[(numberOfItems - 1 - count) % array.length];
                     count++;
@@ -94,6 +94,21 @@ public class CircularArrayRing<E> extends AbstractCollection<E> implements Ring<
         }else{
             return numberOfItems;
         }
+    }
+
+    public static void main(String[] args) {
+        CircularArrayRing<Integer> circularArrayRing = new CircularArrayRing<>(10);
+        circularArrayRing.add(10);
+        circularArrayRing.add(20);
+        circularArrayRing.add(30);
+        circularArrayRing.add(40);
+
+        Iterator<Integer> integerIterator = circularArrayRing.iterator();
+
+        while (integerIterator.hasNext()){
+            System.out.println(integerIterator.next());
+        }
+
     }
 
 }
