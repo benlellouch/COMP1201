@@ -27,7 +27,7 @@ public class CircularArrayRing<E> extends AbstractCollection<E> implements Ring<
             // we are using modulo when determining the index as we want the index to return to 0 when numberOfItems reaches the length of the array
             array[numberOfItems%array.length]= e;
             numberOfItems ++; //increments the number of items since we're adding an element
-            return false;
+            return numberOfItems>array.length;
     }
 
 
